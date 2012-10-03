@@ -34,7 +34,6 @@ h1 {
   font-weight: normal;
   overflow: hidden;
   color: #FFBC5E;
-  z-index: 5;
 }
 h1:hover{
   color: #FF8B4D;
@@ -45,7 +44,10 @@ h2 {
   font-style: italic;
   margin-top: -0.7em;
   color: #A3A09B;
-  z-index: 1;
+}
+.header_stuff #h2{
+  position: absolute;
+  z-index: 2;
 }
 .img {
   margin-left: 0.5em;
