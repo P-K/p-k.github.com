@@ -10,6 +10,27 @@ $(document).ready(function () {
 		function () {
 			$('#name_defn').fadeOut();
 		}
-	)
+	);
+
+	$('.img').css({opacity : '0.7'});
+
+	$('.img').mouseover( function() {
+		$(this).stop().animate({"opacity":1})
+		$(this).children(".img_hover").fadeIn();
+	})
+	$('.img').mouseleave( function() {
+		$(this).stop().animate({"opacity":0.7})
+		$(this).children(".img_hover").fadeOut();
+	})
+
+	var section = window.location.pathname;
+
+	if (section == '/') { $('#homeLink').attr("style","color: #FFC94D;text-decoration: underline;");}
+	if (section == '/about/') { $('#aboutLink').attr("style","color: #FFC94D;text-decoration: underline;");}
+	if (section == '/portfolio/') { $('#portfolioLink').attr("style","color: #FFC94D;text-decoration: underline;");}
+	if (section == '/reading/') { $('#readingLink').attr("style","color: #FFC94D;text-decoration: underline;");}
+	
+
+
 
 });

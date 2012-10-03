@@ -45,8 +45,18 @@ h2 {
   margin-top: -0.7em;
   color: #A3A09B;
 }
-#img {
+.img {
   margin-left: 0.5em;
+  margin-bottom: 1em;
+  width: 900px;
+  height: 300px;
+  display: inline-block;
+}
+.img .img_hover {
+  display: none;
+  position: absolute;
+  opacity: 0.7;
+  z-index: 2;
 }
 #info_content {
   font: 13px sans-serif;
@@ -111,8 +121,9 @@ footer {
   font-size: 0.65em;
   text-align: center;
 }
-body.home a.home, body.about a.about, body.portfolio a.portfolio, body.contact a.contact {
+#readingLink2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
   color: #FFC94D;
-  text-decoration: underline;
-
 }
