@@ -34,6 +34,7 @@ h1 {
   font-weight: normal;
   overflow: hidden;
   color: #FFBC5E;
+  z-index: 5;
 }
 h1:hover{
   color: #FF8B4D;

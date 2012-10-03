@@ -25,10 +25,10 @@ $(document).ready(function () {
 
 	var section = window.location.pathname;
 
-	if (section == '/') { $('#homeLink').attr("style","color: #FFC94D;text-decoration: underline;");}
-	if (section == '/about/') { $('#aboutLink').attr("style","color: #FFC94D;text-decoration: underline;");}
-	if (section == '/portfolio/') { $('#portfolioLink').attr("style","color: #FFC94D;text-decoration: underline;");}
-	if (section == '/reading/') { $('#readingLink').attr("style","color: #FFC94D;text-decoration: underline;");}
+	if (section == '/') { $('#homeLink').attr("style","color: #FFC94D;");}
+	if (section == '/about/') { $('#aboutLink').attr("style","color: #FFC94D;");}
+	if (section == '/portfolio/') { $('#portfolioLink').attr("style","color: #FFC94D;");}
+	if (section == '/reading/') { $('#readingLink').attr("style","color: #FFC94D;");}
 	
 
 
