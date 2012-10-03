@@ -47,8 +47,12 @@ h2 {
   margin-top: -0.7em;
   color: #A3A09B;
 }
+.header_stuff{
+  position: relative;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
 .header_stuff #tagline{
-  position: absolute;
   z-index: 2;
 }
 .img {
