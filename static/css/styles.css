@@ -53,6 +53,7 @@ h2 {
   margin-left: 1em;
 }
 .header_stuff #tagline{
+  position: absolute;
   z-index: 2;
 }
 .img {
