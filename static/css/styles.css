@@ -34,9 +34,11 @@ h1 {
   font-weight: normal;
   overflow: hidden;
   color: #FFBC5E;
+  z-index: 3;
 }
 h1:hover{
   color: #FF8B4D;
+  z-index: 3;
 }
 h2 {
   font: 13px sans-serif;
@@ -45,7 +47,7 @@ h2 {
   margin-top: -0.7em;
   color: #A3A09B;
 }
-.header_stuff #h2{
+.header_stuff #tagline{
   position: absolute;
   z-index: 2;
 }
