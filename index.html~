@@ -3,7 +3,7 @@
   <head>
     <title>Preksha Kashyap</title>
     <link rel="stylesheet" type="text/css" href="static/css/styles.css">
-    <!--<link rel="stylesheet" type="text/css" href="static/css/Font-Awesome/css/font-awesome.min.css">-->
+    <link rel="stylesheet" type="text/css" href="static/css/Font-Awesome/css/font-awesome.min.css">
     <script src="https://use.fontawesome.com/f8898c1450.js"></script>
   </head>
   <body>
@@ -14,23 +14,23 @@
           <a href="https://500px.com/pkashyap"><i class="fa fa-500px fa-3x" aria-hidden="true"></i></a>
         </li>
         <li id="top-right" style="background-color:#ff6b6b">
-            <a href="http://github.com/P-K"><i class="fa fa-github-alt fa-3x" aria-hidden="true"></i></a>
+            <a class="icon-github-sign icon-4x" href="http://github.com/P-K"></a>
         </li>
 
         <!-- Middle Row --> 
         <li id="none" style="background-color:#FFFFFF">
-          <a href="http://linkedin.com/in/PrekshaKashyap"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+          <a class="icon-linkedin-sign icon-4x" href="http://linkedin.com/in/PrekshaKashyap"></a>
         </li>
         <li id="none" style="background-color:#FFFFFF">
-          <a href="http://pkashyap.tumblr.com/"><i class="fa fa-tumblr-square fa-3x" aria-hidden="true"></i></a>
+          <a class="icon-tumblr-sign icon-4x" href="http://pkashyap.tumblr.com/"></a>
         </li>
 
         <!-- Bottom Row --> 
         <li id="bottom-left" style="background-color:#f3b830">
-          <a href="http://www.flickr.com/photos/pkashyap"><i class="fa fa-flickr fa-3x" aria-hidden="true"></i></a>
+          <a class="icon-flickr icon-4x push_down" href="http://www.flickr.com/photos/pkashyap"></a>
         </li>
         <li id="bottom-right" style="background-color:#a7dbd8">
-          <a href="mailto:preksha.kashyap@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+          <a class="icon-envelope icon-4x" href="mailto:preksha.kashyap@gmail.com"></a>
         </li>
       </ul>
     </div>
